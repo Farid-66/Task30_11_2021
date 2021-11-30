@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(/service-bg.jpg);
+    background-size: cover;
+  }
+  
+  #services {
+    width: 100%;
+    position: relative;
+    background-color: rgba(70, 70, 252, 0.7);
+    position: relative;
+    z-index: -1;
+  }
+  
+  .container {
+    padding: 30px 0;
+  }
+  
+  .container .row .col-12 h4 {
+    color: rgba(186, 189, 192, 0.664);
+  }
+  
+  .container .row .col-12 h1 {
+    color: white;
+    font-weight: 900;
+  }
+  
+  .container .row .col-12 h1 span {
+    color: #e7601e;
+  }
+  
+  .container .row .col-12 p {
+    color: rgba(186, 189, 192, 0.664);
+  }
+  
+  .container .row .col-6 {
+    padding: 10px;
+  }
+  
+  .container .row .col-6 .card_box div {
+    position: relative;
+  }
+  
+  .container .row .col-6 .card_box div img {
+    width: 100%;
+    max-height: 600px;
+  }
+  
+  .container .row .col-6 .card_box div .box {
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+  }
+  
+  .container .row .col-6 .card_box div .box h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .container .row .col-6 .card_box div .box img {
+    width: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: -35px;
+    right: -30px;
+    opacity: .1;
+  }
+  
+  .container .row .col-6 .card_box div .box a, .container .row .col-4 .card_box div .box a  {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px -2px rgb(55 64 61 / 40%);;
+    color: #e7601e;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .container .row .col-6 .card_box div .box a::after{
+    content: "";
+    display: block;
+    width: px;
+    height: 28px;
+    background-color: black;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  .container .row .col-4 .card_box div .box a::after{
+    content: "";
+    display: block;
+    width: px;
+    height: 28px;
+    background-color: black;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  .container .row .col-4 {
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  .container .row .col-4 .card_box div {
+    position: relative;
+  }
+  
+  .container .row .col-4 .card_box div img {
+    width: 100%;
+    max-height: 400px;
+  }
+  
+  .container .row .col-4 .card_box div .box {
+    width: 90%;
+    padding: 15px;
+    background-color: white;
+    position: absolute;
+    bottom: -30px;
+    overflow: hidden;
+    right: 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .container .row .col-4 .card_box div .box h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .container .row .col-4 .card_box div .box img {
+    width: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: -40px;
+    right: -30px;
+    opacity: .1;
+  }
+  
+  .container .row .col-4 .card_box div .box a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    -webkit-box-shadow: 1px 2px 9px 2px rgba(55, 64, 61, 0.4);
+            box-shadow: 1px 2px 9px 2px rgba(55, 64, 61, 0.4);
+    color: #e7601e;
+    font-size: 12px;
+  }
